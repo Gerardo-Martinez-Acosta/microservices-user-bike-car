@@ -6,7 +6,7 @@ spring:
     config:
       server:
         git:
-          default-label: circuit-breaker
+          default-label: zipkin-sleuth
           uri: https://github.com/Gerardo-Martinez-Acosta/microservices-user-bike-car
           search-paths: config-data
   application:
