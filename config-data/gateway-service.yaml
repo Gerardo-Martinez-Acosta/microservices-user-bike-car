@@ -28,3 +28,7 @@ eureka:
             uri: lb://bike-service
             predicates:
               - Path=/bike/** 
+          - id: auth-service
+            uri: lb://auth-service
+            predicates:
+              - Path=/user/**    
